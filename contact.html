@@ -31,6 +31,11 @@
         <hr>
             <p>* Ces zones sont obligatoires</p>
             <p>Vos coordonnées</p>
+            <fieldset>
+            <legend>Coordonnées</legend>
+            <label for="nom">Nom:</label><input type="text" name="nom" id="?"><br>
+            <label for="?">prenom:</label><input type="text" name="prenom"><br>
+            <label for="date">Date de naissance:</label><input type="date" name="ddn" id="date">
             <label for="nom">Votre nom*:</label><input type="text" name="nom" id="nom"><br>
             <label for="nom">Votre prénom*:</label><input type="text" name="prénom" id="prénom"><br>
             <label for="nom">Sexe* :</label>
@@ -41,7 +46,8 @@
             <label for="nom">Adresse*:</label><input type="text" name="adresse" id="adresse"><br>
             <label for="nom">Ville*:</label><input type="text" name="ville" id="ville"><br>
             <label for="nom">Email*:</label><input type="text" name="email" id="email"><br>
-            <p>Votre demande</p>
+            </fieldset><br>
+            <fieldset>
             <label for="nom">Sujet*:</label>
             <select id="sujet"> 
             <option value="text" selected>Veuillez séléctionner un sujet</option>
@@ -51,16 +57,19 @@
             <option value="text">Autres</option>
         </select><br>
             Votre question* :<textarea name="commentaire" rows="3" cols="20"></textarea><br>
-            <input type="checkbox" name="nom" value=""> * J'accepte le traitement informatique de ce formulaire<br>
-            <form action="http://bienvu.net/script.php" method="get">  
+        </fieldset>
+        <br>
+            <input type="checkbox" name="nom" value=""> * J'accepte le traitement informatique de ce formulaire><br>
+            <form action="http://bienvu.net/script.php" method="get"><br>
             <input type="submit" value="Envoyer">
             <input type="submit" value="Annuler">
-        </div>
+        </form><br>
+    </div>
         <aside>
             <div class="aside">
-              <div class="box">[Colonne de droite]</div>
+            <div class="box">[Colonne de droite]</div>
             </div>
-          </aside>
+        </aside>
     </section>
         <footer>
             <ul>
