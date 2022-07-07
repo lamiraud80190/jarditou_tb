@@ -1,25 +1,88 @@
 header{
     display: flex;
     justify-content: space-between;
-    flex-wrap:wrap;
     }
-.logo{
-    display: block;
+    .logo{
+    display: flex;
+    flex-wrap: wrap;
     }
-.texte{
-    border: 50px;
-    font-size: 25px;
-    width: 60%;
+    .texte{
+    border: 10px;
+    font-size: 13px;
+    width: 57%;
     }
-.promo{
+    .promo{
+    width : 100%;
+    height: 100%;
+    }
+    nav {
+    border: 1px solid black;
+    background-color:black;
+    margin: 1px;
     width : 100%;
     height: auto;
+    display: block;
+    }
+    a {
+    color: white
+    }
+    li {
+    display: inline-block;
+    }
+    section{
+    display: flex;
+    justify-content: space-between;
+    }
+    .tableau{
+    display: flex;
+    justify-content:space-between
+    }
+    .aside {
+    display: inline-block;
+    justify-content: right;
+    flex-wrap: wrap;
+    }
+    .box {
+    display: flex;
+    background: gray;
+    width: 400px;
+    height: 650px;
+    margin: 2px;
+    flex-wrap: wrap;
+    }
+    footer {
+    background-color: black;
+    color: white;
+    width :auto;
+    border: 1px solid black;
+    margin: 1px;
+    }
+
+
+@media screen and (max-width: 768px) 
+{ 
+    header{
+    display: flex;
+    justify-content: space-between;
+    }
+.logo{
+    display: flex;
+    }
+.texte{
+    border: 10px;
+    font-size: 13px;
+    width: 57%;
+    align-content: center;
+    }
+.promo{
+    max-width: 100%;
+    height: auto;
+    margin: 1px;
     }
 nav {
     width : auto;
     border: 1px solid black;
     background-color:black;
-    margin: 2px;
     }
 a {
     color: white
@@ -33,20 +96,85 @@ section{
     }
 .tableau{
     display: flex;
+    justify-content:space-between
     }
 .aside {
-    display: flex;
+    display: inline-block;
     justify-content: right;
     }
 .box {
-    display: inline-block;
+    display: flex;
     background: gray;
-    width: 900px;
-    height: 500px;
+    width: 400px;
+    height: 650px;
+    margin: 2px;
 }
 footer {
     background-color: black;
     color: white;
     width :auto;
-    border: 1px  solid black;
+    border: 0.5px  solid black;
+    margin: 1px;
     }
+}
+
+
+@media screen and (max-width: 320px) 
+{
+    header{
+        display: flex;
+        justify-content: space-between;
+        }
+    .logo{
+        display: flex;
+        }
+    .texte{
+        border: 10px;
+        font-size: 13px;
+        width: 57%;
+        align-content: center;
+        }
+    .promo{
+        width : 100%;
+        height: 50%;
+        }
+    nav {
+        width : auto;
+        border: 1px solid black;
+        background-color:black;
+        margin: 2px;
+        }
+    a {
+        color: white
+        }
+    li {
+        display: inline-block;
+        }
+    section{
+        display: flex;
+        justify-content: space-between;
+        }
+    .tableau{
+        display: flex;
+        justify-content:space-between
+        }
+    .aside {
+        display: inline-block;
+        justify-content: right;
+        }
+    .box {
+        display: flex;
+        background: gray;
+        width: 100px;
+        height: 820px;
+        margin: 2px;
+    }
+    footer {
+        background-color: black;
+        color: white;
+        width :auto;
+        border: 1px  solid black;
+        margin: 1px;
+        }
+    }
+
