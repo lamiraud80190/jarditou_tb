@@ -2,20 +2,20 @@ header{
     display: flex;
     justify-content: space-between;
     }
-    .logo{
+.logo{
     display: flex;
     flex-wrap: wrap;
     }
-    .texte{
+.texte{
     border: 10px;
     font-size: 13px;
     width: 57%;
     }
-    .promo{
+.promo{
     width : 100%;
     height: 100%;
     }
-    nav {
+nav {
     border: 1px solid black;
     background-color:black;
     margin: 1px;
@@ -23,26 +23,26 @@ header{
     height: auto;
     display: block;
     }
-    a {
+a {
     color: white
     }
-    li {
+li {
     display: inline-block;
     }
-    section{
+section{
     display: flex;
     justify-content: space-between;
     }
-    .tableau{
+.tableau{
     display: flex;
     justify-content:space-between
     }
-    .aside {
+.aside {
     display: inline-block;
     justify-content: right;
     flex-wrap: wrap;
     }
-    .box {
+.box {
     display: flex;
     background: gray;
     width: 400px;
@@ -50,7 +50,7 @@ header{
     margin: 2px;
     flex-wrap: wrap;
     }
-    footer {
+footer {
     background-color: black;
     color: white;
     width :auto;
@@ -61,7 +61,7 @@ header{
 
 @media screen and (max-width: 768px) 
 { 
-    header{
+header{
     display: flex;
     justify-content: space-between;
     }
@@ -119,62 +119,61 @@ footer {
 }
 
 
-@media screen and (max-width: 320px) 
+@media screen and (min-width: 320px) 
 {
-    header{
-        display: flex;
-        justify-content: space-between;
-        }
-    .logo{
-        display: flex;
-        }
-    .texte{
-        border: 10px;
-        font-size: 13px;
-        width: 57%;
-        align-content: center;
-        }
-    .promo{
-        width : 100%;
-        height: 50%;
-        }
-    nav {
-        width : auto;
-        border: 1px solid black;
-        background-color:black;
-        margin: 2px;
-        }
-    a {
-        color: white
-        }
-    li {
-        display: inline-block;
-        }
-    section{
-        display: flex;
-        justify-content: space-between;
-        }
-    .tableau{
-        display: flex;
-        justify-content:space-between
-        }
+header{
+    display: flex;
+    justify-content: space-between;
+    }
+.logo{
+    display: flex;
+    }
+.texte{
+    border: 10px;
+    font-size: 13px;
+    width: 57%;
+    align-content: center;
+    }
+.promo{
+    width : 100%;
+    height: 50%;
+    }
+nav {
+    width : auto;
+    border: 1px solid black;
+    background-color:black;
+    margin: 2px;
+    }
+a {
+    color: white
+    }
+li {
+    display: inline-block;
+    }
+section{
+    display: flex;
+    justify-content: space-between;
+    }
+.tableau{
+    display: flex;
+    justify-content:space-between
+    }
     .aside {
-        display: inline-block;
-        justify-content: right;
-        }
-    .box {
-        display: flex;
-        background: gray;
-        width: 100px;
-        height: 820px;
-        margin: 2px;
+    display: inline-block;
+    justify-content: right;
     }
-    footer {
-        background-color: black;
-        color: white;
-        width :auto;
-        border: 1px  solid black;
-        margin: 1px;
-        }
+.box {
+    display: flex;
+    background: gray;
+    width: 100px;
+    height: 820px;
+    margin: 2px;
     }
-
+footer {
+    background-color: black;
+    color: white;
+    width :auto;
+    border: 1px  solid black;
+    margin: 1px;
+    }
+}
