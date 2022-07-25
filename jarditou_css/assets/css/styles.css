@@ -69,7 +69,7 @@ footer {
   }
   .texte {
     border: 10px;
-    font-size: 13px;
+    font-size: 15px;
     width: 57%;
   }
   .promo {
@@ -86,11 +86,13 @@ footer {
     color: white;
   }
   li {
-    display: inline-block;
+    display: block;
   }
   section {
     display: flex;
     justify-content: space-between;
+    font-size: 25px;
+    overflow-x: auto;
   }
   .tableau {
     display: flex;
