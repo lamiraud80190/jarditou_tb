@@ -52,27 +52,26 @@
         <hr />
         <p>* Ces zones sont obligatoires</p>
         <fieldset>
-          <form action="http://bienvu.net/script.php" method="get">
+          <form action="http://bienvu.net/script.php" method="post">
           <legend>Vos coordonnées</legend>
           <label for="nom">Nom:</label
-          ><input type="nom" name="nom" id="nom" /><br />
+          ><input type="nom" name="nom" id="nom" placeholder="Entrez votre nom" /><br/>
           <label for="prenom">prenom:</label
-          ><input type="prenom" name="prenom" id="prenom" /><br />
-          <br />
-          <label for="sexe">Sexe* :</label>
-          <input type="radio" name="genre" value="feminin" /> Féminin
-          <input type="radio" name="genre" value="masculin" /> Masculin<br />
-          <br />
+          ><input type="prenom" name="prenom" id="prenom" placeholder="Entrez votre prénom" ><br/>
+          <br/><label for="sexe">Sexe* :</label>
+          <input type="radio" name="genre" value="feminin"/> Féminin
+          <input type="radio" name="genre" value="masculin"/> Masculin 
+          <br/><br/>
           <label for="date">Date de naissance*:</label
           ><input type="date" name="ddn" id="date" /><br />
           <label for="code_postal">Code postal*:</label
-          ><input type="number" name="code_postal" id="number" /><br />
+          ><input type="text" name="code_postal" id="number" placeholder="Entrez votre code postal" /><br />
           <label for="adresse">Adresse*:</label
-          ><input type="adresse" name="adresse" id="adresse" /><br />
+          ><input type="adresse" name="adresse" id="adresse" placeholder="Entrez votre adresse" /><br />
           <label for="ville">Ville*:</label
-          ><input type="ville" name="ville" id="ville" /><br />
+          ><input type="ville" name="ville" id="ville" placeholder="Entrez votre ville" /><br />
           <label for="email">Email*:</label
-          ><input type="email" name="email" id="email" /><br />
+          ><input type="email" name="email" id="email" placeholder="Entrez votre email" /><br />
         </fieldset>
         <br />
         <fieldset>
@@ -92,7 +91,7 @@
           ><br />
         </fieldset>
         <br />
-        <input type="checkbox" name="nom" value="" /> * J'accepte le traitement
+        <input type="checkbox" name="nom" value="on" /> * J'accepte le traitement
         informatique de ce formulaire<br />
           <br />
           <input type="submit" value="Envoyer" />
