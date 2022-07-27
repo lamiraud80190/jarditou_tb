@@ -1,6 +1,0 @@
-- la France : du lundi au dimanche de 9h à 21H ;
-- la Belgique : du lundi au vendredi de 9h à 19h et le samedi de 9h à 18h ;
-- l’Italie : du lundi au vendredi de 9h à 19h et le samedi de 9h à 18h ;
-- l’Allemagne : du lundi au vendredi de 9h à 19h et le samedi de 9h à 18h ;
-- l’Espagne : du lundi au vendredi de 9h à 19h et le samedi de 9h à 18h ;
-- Luxembourg : du lundi au vendredi de 9h à 19h et le samedi de 9h à 18h.
