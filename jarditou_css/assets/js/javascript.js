@@ -1,10 +1,12 @@
+var nom = prompt("Entrez votre nom"); 
 var prenom = prompt("Entrez votre prénom");
-var nom = prompt("Entrez votre nom");
-if (window.confirm("Etes-vous un homme") == true)
-{
-  ""
+if ( confirm( "Etes-vous un homme ?" ) ) {
+  // Code à éxécuter si le l'utilisateur clique sur "OK"
+} else {
+  // Code à éxécuter si l'utilisateur clique sur "Annuler" 
 }
 alert(
-  "Bonjour Monsieur " + prenom + " " + nom + "\nBienvenue sur notre site web !"
+  "Bonjour Monsieur " + nom + " " + prenom + "\nBienvenue sur notre site web !"
 );
+
 console.log("Bienvenue sur notre site web !");
